@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-10-05 15:26:13
+/* Smarty version 3.1.30, created on 2017-10-05 18:09:51
   from "C:\xampp\htdocs\Views\layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59d632f5673c35_96079783',
+  'unifunc' => 'content_59d6594f31b966_61137286',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '527aef30117dcd6b982a77b1a6d3f5249e6c26d8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Views\\layout.tpl',
-      1 => 1507209973,
+      1 => 1507219789,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59d632f5673c35_96079783 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59d6594f31b966_61137286 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <!doctype html>
 <html lang="en">
@@ -47,15 +49,40 @@ function content_59d632f5673c35_96079783 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Page 3</a></li>
+            <?php if (isset($_SESSION['user'])) {?>
+                <li><a href="#"><?php echo $_SESSION['user']->getLogin();?>
+</a></li>
+                <li><a href="/auth/logout">LogOut</a></li>
+                <?php } else { ?>
+                <li><a href="/auth/login">Login</a></li>
+                <li><a href="/auth/register">Register</a></li>
+                <?php }?>
+
+
+
         </ul>
     </div>
 </nav>
 <h1 align="center">Open smarty</h1>
-<pre>
+<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_151178640059d6594f31b063_91715758', 'body');
+?>
+
 
 </body>
 </html><?php }
+/* {block 'body'} */
+class Block_151178640059d6594f31b063_91715758 extends Smarty_Internal_Block
+{
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
+
+
+
+
+    <?php
+}
+}
+/* {/block 'body'} */
 }

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebaed053-941e-41a7-ad2a-16bdf9e03028" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/BaseController.php" afterPath="$PROJECT_DIR$/Controllers/BaseController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/AuthController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Auth/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/0f61177faed9d95d45eae00888b604f63cf123de_0.file.login.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/UserModel.php" afterPath="$PROJECT_DIR$/Models/UserModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/layout.tpl" afterPath="$PROJECT_DIR$/Views/layout.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/index.php" afterPath="$PROJECT_DIR$/webroot/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/request.json" afterPath="$PROJECT_DIR$/storage/request.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/templates_c/527aef30117dcd6b982a77b1a6d3f5249e6c26d8_0.file.layout.tpl.php" afterPath="$PROJECT_DIR$/webroot/templates_c/527aef30117dcd6b982a77b1a6d3f5249e6c26d8_0.file.layout.tpl.php" />
     </list>
     <ignored path="htdocs.iws" />
@@ -22,41 +26,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/index.php">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controllers/MainController.php">
+      <file leaf-file-name="register.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Auth/register.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="51">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layout.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Helpers/Session.php">
+      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <marker date="1507219612197" expanded="true" signature="644:657" ph="INSERT INTO " />
+                <marker date="1507219612197" expanded="true" signature="644:673" ph="INSERT INTO ``... " />
+                <marker date="1507219612197" expanded="true" signature="644:695" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:712" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:730" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:746" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:763" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:780" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="644:781" ph="INSERT INTO `${self::TABLE}`... " />
+                <marker date="1507219612197" expanded="true" signature="1177:1192" ph="SELECT * FRO... " />
+                <marker date="1507219612197" expanded="true" signature="1177:1208" ph="SELECT * FRO... " />
+                <marker date="1507219612197" expanded="true" signature="1177:1224" ph="SELECT * FRO... ${self::TABLE}" />
+                <marker date="1507219612197" expanded="true" signature="1177:1235" ph="SELECT * FRO... ${self::TABLE}" />
+                <marker date="1507219612197" expanded="true" signature="1177:1243" ph="SELECT * FRO... ${self::TABLE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/request.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1576" lean-forward="false" selection-start-line="0" selection-start-column="1576" selection-end-line="0" selection-end-column="1576" />
               <folding />
             </state>
           </provider>
@@ -82,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/layout.tpl" />
-        <option value="$PROJECT_DIR$/templates/main.tpl" />
         <option value="$PROJECT_DIR$/Controllers/LogsController.php" />
         <option value="$PROJECT_DIR$/Views/register.tpl" />
         <option value="$PROJECT_DIR$/Views/login.tpl" />
@@ -122,17 +149,19 @@
         <option value="$PROJECT_DIR$/file.txt" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/webroot/.htaccess" />
-        <option value="$PROJECT_DIR$/storage/request.json" />
-        <option value="$PROJECT_DIR$/Controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/Models/UserModel.php" />
         <option value="$PROJECT_DIR$/Helpers/Logger.php" />
         <option value="$PROJECT_DIR$/storage/error.json" />
         <option value="$PROJECT_DIR$/Helpers/DB.php" />
         <option value="$PROJECT_DIR$/webroot/index.php" />
         <option value="$PROJECT_DIR$/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/Helpers/Session.php" />
-        <option value="$PROJECT_DIR$/Views/layout.tpl" />
         <option value="$PROJECT_DIR$/Controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/Views/Auth/login.tpl" />
+        <option value="$PROJECT_DIR$/Views/Auth/register.tpl" />
+        <option value="$PROJECT_DIR$/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/storage/request.json" />
+        <option value="$PROJECT_DIR$/Models/UserModel.php" />
+        <option value="$PROJECT_DIR$/Views/layout.tpl" />
       </list>
     </option>
   </component>
@@ -273,12 +302,23 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Helpers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -428,12 +468,12 @@
       <workItem from="1506584968041" duration="11600000" />
       <workItem from="1506718857344" duration="47000" />
       <workItem from="1507115195725" duration="1477000" />
-      <workItem from="1507198314735" duration="10147000" />
+      <workItem from="1507198314735" duration="16173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150437000" />
+    <option name="totallyTimeSpent" value="156463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
@@ -536,38 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Auth/register.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/Auth/login.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/error.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -580,14 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -610,10 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/index.php">
+    <entry file="file://$PROJECT_DIR$/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -626,18 +626,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
+    <entry file="file://$PROJECT_DIR$/webroot/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/MainController.php">
+    <entry file="file://$PROJECT_DIR$/Views/Auth/login.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/request.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1576" lean-forward="false" selection-start-line="0" selection-start-column="1576" selection-end-line="0" selection-end-column="1576" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <marker date="1507219612197" expanded="true" signature="644:657" ph="INSERT INTO " />
+            <marker date="1507219612197" expanded="true" signature="644:673" ph="INSERT INTO ``... " />
+            <marker date="1507219612197" expanded="true" signature="644:695" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:712" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:730" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:746" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:763" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:780" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="644:781" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507219612197" expanded="true" signature="1177:1192" ph="SELECT * FRO... " />
+            <marker date="1507219612197" expanded="true" signature="1177:1208" ph="SELECT * FRO... " />
+            <marker date="1507219612197" expanded="true" signature="1177:1224" ph="SELECT * FRO... ${self::TABLE}" />
+            <marker date="1507219612197" expanded="true" signature="1177:1235" ph="SELECT * FRO... ${self::TABLE}" />
+            <marker date="1507219612197" expanded="true" signature="1177:1243" ph="SELECT * FRO... ${self::TABLE}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Auth/register.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>

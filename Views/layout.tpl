@@ -19,14 +19,26 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">Page 3</a></li>
+            {if isset($smarty.session.user)}
+                <li><a href="#">{$smarty.session.user->getLogin()}</a></li>
+                <li><a href="/auth/logout">LogOut</a></li>
+                {else}
+                <li><a href="/auth/login">Login</a></li>
+                <li><a href="/auth/register">Register</a></li>
+                {/if}
+
+
+
         </ul>
     </div>
 </nav>
 <h1 align="center">Open smarty</h1>
-<pre>
+{block name=body}
+
+
+
+
+    {/block}
 
 </body>
 </html>
