@@ -10,8 +10,9 @@ class MainController extends BaseController
 {
     public function indexAction()
     {
-        echo "<h1>".__METHOD__;
-        $q=new UserModel();
-        $q->q();
+        $r= "<h1>".__METHOD__;
+        $smarty=$this->getSmarty();
+        $smarty->assign('r',$r);
+        $smarty->display('layout.tpl');
     }
 }

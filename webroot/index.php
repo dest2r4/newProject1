@@ -5,6 +5,7 @@ function d($arg){
 }
 const DC=DIRECTORY_SEPARATOR;
 
+
 $route=$_SERVER["REQUEST_URI"];
 $route=explode("/",ltrim($route,"/"));
 
@@ -18,6 +19,10 @@ for($i=0;$i<$routeCount;$i++){
 }
 
 $root=realpath(__DIR__."/..");
+
+require_once ($root.DC."libs".DC."Smarty.class.php");
+$smarty=new Smarty();
+$smarty->setTemplateDir($root.DC."Views");
 
 
 

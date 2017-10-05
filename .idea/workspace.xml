@@ -2,212 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebaed053-941e-41a7-ad2a-16bdf9e03028" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controllers/BaseController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controllers/MainController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Helpers/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Helpers/Logger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/UserModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Views/layout.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Autoloader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Smarty.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/SmartyBC.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/debug.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/block.textformat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.counter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.cycle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.fetch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_checkboxes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_options.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_radios.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_select_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_select_time.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.html_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.mailto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/function.math.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.capitalize.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.date_format.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.debug_print_var.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.escape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.regex_replace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.replace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.spacify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifier.truncate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.cat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.count_characters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.count_paragraphs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.count_sentences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.count_words.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.escape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.from_charset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.indent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.lower.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.noprint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.string_format.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.strip.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.strip_tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.to_charset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.unescape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.upper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/modifiercompiler.wordwrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/outputfilter.trimwhitespace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.escape_special_chars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.literal_compiler_param.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.make_timestamp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.mb_str_replace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.mb_unicode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/shared.mb_wordwrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/plugins/variablefilter.htmlspecialchars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_cacheresource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_cacheresource_custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_cacheresource_keyvaluestore.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_cacheresource_file.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_append.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_assign.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_break.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_call.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_capture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_config_load.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_continue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_debug.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_eval.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_extends.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_for.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_foreach.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_if.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_include.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_include_php.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_insert.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_ldelim.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_make_nocache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_nocache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_block_plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_foreachsection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_function_plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_modifier.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_object_block_function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_object_function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_php.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_print_expression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_registered_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_registered_function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_private_special_variable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_rdelim.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_setfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_shared_inheritance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compile_while.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_compilebase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_config_file_compiler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_configfilelexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_configfileparser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_debug.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_extension_clear.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_extension_handler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_addautoloadfilters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_adddefaultmodifiers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_append.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_appendbyref.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_assignbyref.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_assignglobal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearallassign.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearallcache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearassign.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearcache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearcompiledtemplate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_clearconfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_compileallconfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_compilealltemplates.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_configload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_createdata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getautoloadfilters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getconfigvars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getdebugtemplate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getdefaultmodifiers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getglobal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getregisteredobject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_getstreamvariable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_gettags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_gettemplatevars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_loadfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_loadplugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_mustcompile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registercacheresource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerclass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerobject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerplugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_registerresource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_setautoloadfilters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_setdebugtemplate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_setdefaultmodifiers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unloadfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unregistercacheresource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unregisterfilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unregisterobject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unregisterplugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_method_unregisterresource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_nocache_insert.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_code.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_dq.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_dqcontent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_parsetree_text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_eval.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_extends.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_file.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_php.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_registered.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_stream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_resource_string.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_cachemodify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_capture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_codeframe.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_filterhandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_foreach.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_getincludepath.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_inheritance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_make_nocache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_tplfunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_updatecache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_updatescope.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_runtime_writefile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_smartytemplatecompiler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_templatebase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_templatecompilerbase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_templatelexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_templateparser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_testinstall.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_internal_undefined.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_resource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_resource_custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_resource_recompiled.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_resource_uncompiled.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_security.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_template_cached.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_template_compiled.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_template_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_template_resource_base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_template_source.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_undefined_variable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smarty_variable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smartycompilerexception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/sysplugins/smartyexception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/templates_c/527aef30117dcd6b982a77b1a6d3f5249e6c26d8_0.file.layout.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/BaseController.php" afterPath="$PROJECT_DIR$/Controllers/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/MainController.php" afterPath="$PROJECT_DIR$/Controllers/MainController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/index.php" afterPath="$PROJECT_DIR$/webroot/index.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,41 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webroot/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Controllers/MainController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -328,13 +95,13 @@
         <option value="$PROJECT_DIR$/webroot/.htaccess" />
         <option value="$PROJECT_DIR$/Helpers/DB.php" />
         <option value="$PROJECT_DIR$/Helpers/Logger.php" />
-        <option value="$PROJECT_DIR$/Views/layout.tpl" />
         <option value="$PROJECT_DIR$/storage/request.json" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/Models/UserModel.php" />
         <option value="$PROJECT_DIR$/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/webroot/index.php" />
-        <option value="$PROJECT_DIR$/Models/UserModel.php" />
         <option value="$PROJECT_DIR$/Controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/Views/layout.tpl" />
       </list>
     </option>
   </component>
@@ -345,7 +112,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
@@ -625,15 +392,15 @@
       <workItem from="1506584968041" duration="11600000" />
       <workItem from="1506718857344" duration="47000" />
       <workItem from="1507115195725" duration="1477000" />
-      <workItem from="1507198314735" duration="6079000" />
+      <workItem from="1507198314735" duration="6958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146369000" />
+    <option name="totallyTimeSpent" value="147248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="772" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21196455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -756,14 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/Auth/login.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -804,22 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -828,10 +571,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding />
         </state>
       </provider>
