@@ -20,6 +20,9 @@
         <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
             {if isset($smarty.session.user)}
+                {if $smarty.session.user->isAdmin()}
+                    <li><a href="#">ADMIN PAGE</a></li>
+                    {/if}
                 <li><a href="#">{$smarty.session.user->getLogin()}</a></li>
                 <li><a href="/auth/logout">LogOut</a></li>
                 {else}

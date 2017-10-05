@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebaed053-941e-41a7-ad2a-16bdf9e03028" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controllers/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/Auth/login.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/templates_c/0f61177faed9d95d45eae00888b604f63cf123de_0.file.login.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/UserModel.php" afterPath="$PROJECT_DIR$/Models/UserModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/layout.tpl" afterPath="$PROJECT_DIR$/Views/layout.tpl" />
@@ -25,73 +22,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/Auth/register.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-              <folding>
-                <marker date="1507219612197" expanded="true" signature="644:657" ph="INSERT INTO " />
-                <marker date="1507219612197" expanded="true" signature="644:673" ph="INSERT INTO ``... " />
-                <marker date="1507219612197" expanded="true" signature="644:695" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:712" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:730" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:746" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:763" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:780" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="644:781" ph="INSERT INTO `${self::TABLE}`... " />
-                <marker date="1507219612197" expanded="true" signature="1177:1192" ph="SELECT * FRO... " />
-                <marker date="1507219612197" expanded="true" signature="1177:1208" ph="SELECT * FRO... " />
-                <marker date="1507219612197" expanded="true" signature="1177:1224" ph="SELECT * FRO... ${self::TABLE}" />
-                <marker date="1507219612197" expanded="true" signature="1177:1235" ph="SELECT * FRO... ${self::TABLE}" />
-                <marker date="1507219612197" expanded="true" signature="1177:1243" ph="SELECT * FRO... ${self::TABLE}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/request.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1576" lean-forward="false" selection-start-line="0" selection-start-column="1576" selection-end-line="0" selection-end-column="1576" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,8 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Controllers/LogsController.php" />
-        <option value="$PROJECT_DIR$/Views/register.tpl" />
         <option value="$PROJECT_DIR$/Views/login.tpl" />
         <option value="$PROJECT_DIR$/Views/admin/categories.tpl" />
         <option value="$PROJECT_DIR$/Views/admin/items.tpl" />
@@ -160,8 +89,10 @@
         <option value="$PROJECT_DIR$/Views/Auth/register.tpl" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/storage/request.json" />
-        <option value="$PROJECT_DIR$/Models/UserModel.php" />
         <option value="$PROJECT_DIR$/Views/layout.tpl" />
+        <option value="$PROJECT_DIR$/Controllers/LogController.php" />
+        <option value="$PROJECT_DIR$/Views/Admin/logger.tpl" />
+        <option value="$PROJECT_DIR$/Models/UserModel.php" />
       </list>
     </option>
   </component>
@@ -302,23 +233,17 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Helpers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -468,18 +393,17 @@
       <workItem from="1506584968041" duration="11600000" />
       <workItem from="1506718857344" duration="47000" />
       <workItem from="1507115195725" duration="1477000" />
-      <workItem from="1507198314735" duration="16173000" />
+      <workItem from="1507198314735" duration="18020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156463000" />
+    <option name="totallyTimeSpent" value="158310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21196455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21196455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24169184" sideWeight="0.5022654" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,8 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logger.php" />
-    <entry file="file://$PROJECT_DIR$/libs/Autoloader.php" />
     <entry file="file://$PROJECT_DIR$/public/index.php" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$USER_HOME$/Downloads/categories (2).sql" />
@@ -592,16 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <marker date="1507208197238" expanded="true" signature="1020:1610" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -642,14 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/request.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -658,26 +562,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
+    <entry file="file://$PROJECT_DIR$/Controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <marker date="1507219612197" expanded="true" signature="644:657" ph="INSERT INTO " />
-            <marker date="1507219612197" expanded="true" signature="644:673" ph="INSERT INTO ``... " />
-            <marker date="1507219612197" expanded="true" signature="644:695" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:712" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:730" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:746" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:763" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:780" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="644:781" ph="INSERT INTO `${self::TABLE}`... " />
-            <marker date="1507219612197" expanded="true" signature="1177:1192" ph="SELECT * FRO... " />
-            <marker date="1507219612197" expanded="true" signature="1177:1208" ph="SELECT * FRO... " />
-            <marker date="1507219612197" expanded="true" signature="1177:1224" ph="SELECT * FRO... ${self::TABLE}" />
-            <marker date="1507219612197" expanded="true" signature="1177:1235" ph="SELECT * FRO... ${self::TABLE}" />
-            <marker date="1507219612197" expanded="true" signature="1177:1243" ph="SELECT * FRO... ${self::TABLE}" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,10 +578,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <marker date="1507221558018" expanded="true" signature="643:656" ph="INSERT INTO " />
+            <marker date="1507221558018" expanded="true" signature="643:672" ph="INSERT INTO ``... " />
+            <marker date="1507221558018" expanded="true" signature="643:694" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:711" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:729" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:745" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:762" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:779" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="643:780" ph="INSERT INTO `${self::TABLE}`... " />
+            <marker date="1507221558018" expanded="true" signature="1176:1191" ph="SELECT * FRO... " />
+            <marker date="1507221558018" expanded="true" signature="1176:1207" ph="SELECT * FRO... " />
+            <marker date="1507221558018" expanded="true" signature="1176:1223" ph="SELECT * FRO... ${self::TABLE}" />
+            <marker date="1507221558018" expanded="true" signature="1176:1234" ph="SELECT * FRO... ${self::TABLE}" />
+            <marker date="1507221558018" expanded="true" signature="1176:1242" ph="SELECT * FRO... ${self::TABLE}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Admin/logger.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Views/layout.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helpers/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding />
         </state>
       </provider>

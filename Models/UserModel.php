@@ -24,7 +24,7 @@ class UserModel
         return $this->createUser();
     }
     public function createUser(){
-        $this->role=(int) (in_array($this->role,[self::ROLE_USER,self::ROLE_ADMIN]))?$this->role:self::ROLE_USER;
+        $this->role=(int)(in_array($this->role,[self::ROLE_USER,self::ROLE_ADMIN]))?$this->role:self::ROLE_USER;
         $db=DB::getInstance();
         $query="INSERT INTO `".self::TABLE."`
         SET `login`='".$this->login."',
@@ -64,6 +64,10 @@ class UserModel
         return $this->login;
     }
 
+    public function isAdmin(){
+        if($this->role===self::ROLE_ADMIN)return true;
+        return false;
+    }
 
 
 
