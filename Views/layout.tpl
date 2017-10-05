@@ -26,5 +26,7 @@
     </div>
 </nav>
 <h1 align="center">Open smarty</h1>
+<pre>
+
 </body>
 </html>

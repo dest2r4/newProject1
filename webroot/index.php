@@ -35,6 +35,14 @@ spl_autoload_register(function ($className) use ($root){
     else die("<h2>OOPS file was not found by ===> <br>{$filePath}");
 });
 
+
+$session=new Session();
+
+
+
+
+
+
 $obj=new $controller();
 if(!method_exists($obj,$action))die("This action is Uncorrect");
 $obj->$action();

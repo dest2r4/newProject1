@@ -12,18 +12,24 @@ abstract class BaseController
 
 
     private $smarty;
-
+    private $session;
 
     public function __construct()
     {
         global  $smarty;
         $this->smarty=$smarty;
+        global $session;
+        $this->session=$session;
     }
 
 
     public function getSmarty(){
 
         return $this->smarty;
+    }
+
+    public function getSession(){
+        return $this->session;
     }
 
 
