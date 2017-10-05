@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-10-05 14:32:21
+/* Smarty version 3.1.30, created on 2017-10-05 15:06:51
   from "C:\xampp\htdocs\Views\layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59d62655486d14_81516728',
+  'unifunc' => 'content_59d62e6b8475a8_81021872',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '527aef30117dcd6b982a77b1a6d3f5249e6c26d8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Views\\layout.tpl',
-      1 => 1507206738,
+      1 => 1507208810,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59d62655486d14_81516728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59d62e6b8475a8_81021872 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -54,8 +54,6 @@ function content_59d62655486d14_81516728 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </nav>
 <h1 align="center">Open smarty</h1>
-<?php echo $_smarty_tpl->tpl_vars['r']->value;?>
-
 </body>
 </html><?php }
 }

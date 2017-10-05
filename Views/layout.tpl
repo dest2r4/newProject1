@@ -26,6 +26,5 @@
     </div>
 </nav>
 <h1 align="center">Open smarty</h1>
-{$r}
 </body>
 </html>
