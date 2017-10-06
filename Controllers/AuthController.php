@@ -20,6 +20,7 @@ class AuthController extends BaseController
         $user=new UserModel($login,$pass);
         if(!$user->loginUser())die("Can`t login user");
         $this->getSession()->set('user',$user);
+        $this->getSession()->set('admin',$user->isAdmin());
         #die(print_r($user,true));
         header("Location:/");
     }

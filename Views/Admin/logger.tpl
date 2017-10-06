@@ -1,43 +1,11 @@
 {extends file="../layout.tpl"}
+
 {block name=body}
-    <h1>ADMIN LOGGER</h1>
-    <div class="container">
-        <h1>Error table</h1>
-        <table class="table">
-            <thead>
-            <tr>
-                <th> Message</th>
-                <th>Time</th>
-            </tr>
-            </thead>
-            <tbody>
-            {foreach $err as $bug}
-            <tr>
-                <td>{$bug['msg']}</td>
-                <td>{$bug['time']}</td>
-            </tr>
-            {/foreach}
-            </tbody>
-        </table>
+    <h1 align="center">ADMIN LOGGER</h1>
+    <div align="center" >
+    <a href="/admin/log/error"><button type="button" class="btn btn-primary active" style="width: 25%;height: 20%" >Show Error</button></a>
+    <a href="/admin/log/request"><button type="button" class="btn btn-primary active" style="width: 25%;height: 19%" >Show Request</button></a>
     </div>
-    <h1>Request table</h1>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Number</th>
-            <th> Message</th>
-            <th>Time</th>
-        </tr>
-        </thead>
-        <tbody>
-        {foreach $reqs as $key=> $req}
-            <tr>
-                <td>{$key}</td>
-                <td>{$req['msg']}</td>
-                <td>{$req['time']}</td>
-            </tr>
-        {/foreach}
-        </tbody>
-    </table>
-    </div>
+    {block name=table}
+        {/block}
 {/block}
