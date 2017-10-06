@@ -1,0 +1,14 @@
+{
+    "name": "dest2r4/shop_mvc",
+    "description": "try to do shop",
+    "authors": [
+        {
+             "name": "dozer",
+            "email": "alkhonko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    }
+}

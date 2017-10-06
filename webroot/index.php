@@ -11,7 +11,7 @@ $route=explode("/",ltrim($route,"/"));
 
 
 $root=realpath(__DIR__."/..");
-
+require_once "../vendor/autoload.php";
 require_once ($root.DC."libs".DC."Smarty.class.php");
 $smarty=new Smarty();
 $smarty->setTemplateDir($root.DC."Views");
@@ -45,8 +45,6 @@ $routeCount=count($route);
 for($i=0;$i<$routeCount;$i++){
     $params[$i]=array_shift($route);
 }
-
-
 
 $obj=new $controller();
 if(!method_exists($obj,$action))die("This action is Uncorrect");
